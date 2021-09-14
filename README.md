@@ -110,6 +110,32 @@ You can get it from <a href="https://github.com/ragibson/Steganography#WavSteg">
 <i><b> stegolsb wavsteg --help </i></b>: extracts data from a wav sound file and outputs the data into a new file
 
 
+<br><br>
+10.Sonic visualizer
+---------------------
+Sonic visualizer is a tool for viewing and analyzing the contents of audio files, however it can be helpful when dealing with audio steganography. You can reveal hidden shapes in audio files.It is a GUI based tool. <br>
+<a href="https://www.sonicvisualiser.org/">Official Website</a>
+
+ 
+<br><br>
+
+
+BRUTEFORCERS
+------------------
+<br><br>
+11.Fcrackzip
+---------------
+Sometimes the extracted data is a password protected zip , this tool bruteforces zip archives.
+
+>>>Install
+
+    sudo apt-get install fcrackzip 
+
+>>>Useful commands:
+
+<i><b> fcrackzip -v -u -D -p /usr/share/wordlists/rockyou.txt Impossible.zip </i></b>: bruteforces the given zip file with passwords from the given wordlist 
+
+
 
 
 
