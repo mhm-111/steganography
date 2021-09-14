@@ -131,11 +131,35 @@ Sonic visualizer is a tool for viewing and analyzing the contents of audio files
  
 <br><br>
 
+11.file
+-----------------------
+file command is used to determine the type of a file. .file type may be of human-readable(e.g. ‘ASCII text’) or MIME type(e.g. ‘text/plain; charset=us-ascii’). This command tests each argument in an attempt to categorize it.
+
+12.cmp
+----------
+cmp command in Linux/UNIX is used to compare the two files byte by byte and helps you to find out whether the two files are identical or not.
+
+>When cmp is used for comparison between two files, it reports the location of the first mismatch to the screen if difference is found and if no difference is found i.e the files compared are identical.
+>cmp displays no message and simply returns the prompt if the the files compared are identical.
+
+    cmp --help
+
+<br><br>
+13.diff
+-----------------
+diff stands for difference. This command is used to display the differences in the files by comparing the files line by line.
+
+>>>Usage:
+
+<i><b> diff a.txt b.txt </i></b> : it will compare a.txt and b.txt .
+
+
+
 
 BRUTEFORCERS
 ------------------
 <br><br>
-11.Fcrackzip
+1.Fcrackzip
 ---------------
 Sometimes the extracted data is a password protected zip , this tool bruteforces zip archives.
 
@@ -151,7 +175,7 @@ Sometimes the extracted data is a password protected zip , this tool bruteforces
 
 <br><br>
 
-12.Stegcracker
+2.Stegcracker
 ---------------------
 A tool that bruteforces passwords using steghide.
 
@@ -166,19 +190,19 @@ A tool that bruteforces passwords using steghide.
 Web Tools
 ---------------------
 <br><br>
-13.<a href="https://www.irongeek.com/i.php?page=security/unicode-steganography-homoglyph-encoder">Unicode Text Steganography</a>  
+1.<a href="https://www.irongeek.com/i.php?page=security/unicode-steganography-homoglyph-encoder">Unicode Text Steganography</a>  
 -----------------------------------------------------------------------------------------------------------------------------------
 A web tool for unicode steganography , it can encode and decode text.
 
 <br><br>
-14.<a href="https://www.bertnase.de/npiet/npiet-execute.php">  Npiet Online</a>
+2.<a href="https://www.bertnase.de/npiet/npiet-execute.php">  Npiet Online</a>
 --------------------------------------------------------------------------------------
 an online interpreter for piet. piet is an esoteric language , programs in piet are images. Read more about it <a href="https://www.dangermouse.net/esoteric/piet.html"> here </a>.
 
 
 <br><br>
 
-15.<a href="https://www.dcode.fr/en"> dcode.fr </a>
+3.<a href="https://www.dcode.fr/en"> dcode.fr </a>
 --------------------------------------------------------
 Sometimes when solving steganography challenges you will need to decode some text. dcode.fr has many decoders for a lot of ciphers and can be really helpful.
 
@@ -202,6 +226,7 @@ Sometimes when solving steganography challenges you will need to decode some tex
 <b><i>Source</b></i>
 -----------------------
 <i><u> 1. https://0xrick.github.io/lists/stego/</i></u>
+<i><u> 2. https://www.geeksforgeeks.org </i></u>
 
 
 
