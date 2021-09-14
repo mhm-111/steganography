@@ -83,3 +83,57 @@ Binwalk is a tool for searching binary files like images and audio files for emb
 <i><b>binwalk -e file </i></b>: Displays and extracts the data from the given file
 
 <br><br>
+
+8.Zsteg
+--------------
+
+zsteg is a tool that can detect hidden data in png and bmp files. The source can be found on <a href="https://github.com/zed-0xff/zsteg">github</a>
+
+>>>Install in Linux:
+
+    gem install zsteg
+
+>>>Useful commands:
+
+<i><b>zsteg -a file </i></b>: Runs all the methods on the given file
+<i><b>zsteg -E file </i></b>: Extracts data from the given payload (example : zsteg -E b4,bgr,msb,xy name.png)
+
+<br><br>
+
+9.Wavsteg
+---------------
+WavSteg is a python3 tool that can hide data and files in wav files and can also extract data from wav files.
+You can get it from <a href="https://github.com/ragibson/Steganography#WavSteg"> here </a>
+
+>>> Useful commands:
+
+<i><b> python3 WavSteg.py -r -s soundfile -o outputfile </i></b>: extracts data from a wav sound file and outputs the data into a new file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
