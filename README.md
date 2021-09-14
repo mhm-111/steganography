@@ -222,10 +222,10 @@ Sometimes when solving steganography challenges you will need to decode some tex
 
 
 
-
+<br><br><br>
 <b><i>Source</b></i>
 -----------------------
-<i><u> 1. https://0xrick.github.io/lists/stego/</i></u>
+<i><u> 1. https://0xrick.github.io/lists/stego/</i></u><br>
 <i><u> 2. https://www.geeksforgeeks.org </i></u>
 
 
