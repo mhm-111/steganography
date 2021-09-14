@@ -3,7 +3,18 @@
 Tools:
 ---------------
 
-<h2 style="color:red">1.Steghide </h2>
+1.Steghide
+-------------------
+
+Steghide is a steganography program that hides data in various kinds of image and audio files , only supports these file formats : JPEG, BMP, WAV and AU. but it’s also useful for extracting embedded and encrypted data from other files.
+
+>>> Installing
+
+    sudo apt-get install steghide
+    
+>>> Useful commands:
+
+<i><b> steghide --help </i></b>  : It will show all available commands. 
 
 
 
@@ -134,7 +145,46 @@ Sometimes the extracted data is a password protected zip , this tool bruteforces
 
 >>>Useful commands:
 
-<i><b> fcrackzip -v -u -D -p /usr/share/wordlists/rockyou.txt Impossible.zip </i></b>: bruteforces the given zip file with passwords from the given wordlist 
+<i><b> fcrackzip -v -u -D -p /usr/share/wordlists/rockyou.txt Impossible.zip </i></b>: bruteforces the given zip file with passwords from the given wordlist .
+
+
+
+<br><br>
+
+12.Stegcracker
+---------------------
+A tool that bruteforces passwords using steghide.
+
+>>>Usage
+
+<i><b> stegcraker image.png wordlists.txt</i></b> : It will crack password of image.png which is password protected and it will use wordlist.txt as a wordlist.
+
+
+
+<br><br><br>
+
+Web Tools
+---------------------
+<br><br>
+13.<a href="https://www.irongeek.com/i.php?page=security/unicode-steganography-homoglyph-encoder">Unicode Text Steganography</a>  
+-----------------------------------------------------------------------------------------------------------------------------------
+A web tool for unicode steganography , it can encode and decode text.
+
+<br><br>
+14.<a href="https://www.bertnase.de/npiet/npiet-execute.php">  Npiet Online</a>
+--------------------------------------------------------------------------------------
+an online interpreter for piet. piet is an esoteric language , programs in piet are images. Read more about it <a href="https://www.dangermouse.net/esoteric/piet.html"> here </a>.
+
+
+<br><br>
+
+15.<a href="https://www.dcode.fr/en"> dcode.fr </a>
+--------------------------------------------------------
+Sometimes when solving steganography challenges you will need to decode some text. dcode.fr has many decoders for a lot of ciphers and can be really helpful.
+
+
+
+
 
 
 
