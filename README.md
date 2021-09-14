@@ -107,7 +107,7 @@ You can get it from <a href="https://github.com/ragibson/Steganography#WavSteg">
 
 >>> Useful commands:
 
-<i><b> python3 WavSteg.py -r -s soundfile -o outputfile </i></b>: extracts data from a wav sound file and outputs the data into a new file
+<i><b> stegolsb wavsteg --help </i></b>: extracts data from a wav sound file and outputs the data into a new file
 
 
 
